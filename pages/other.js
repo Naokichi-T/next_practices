@@ -5,8 +5,10 @@ export default () => (
   <Layout header="Other" title="Other page.">
     <p>This is Other page.</p>
     <hr />
-    <Link href="/">
-      <button>&lt;&lt; Back to Top</button>
-    </Link>
+    <div>
+      <Link href="/">
+        <button>&lt;&lt; Back to Top</button>
+      </Link>
+    </div>
   </Layout>
 );
