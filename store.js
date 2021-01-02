@@ -10,7 +10,7 @@ const initial = {
 };
 
 // レデューサー
-function calcReducer(state = intitial, action) {
+function calcReducer(state = initial, action) {
   switch (action.type) {
     // 計算実行
     case "ENTER":
