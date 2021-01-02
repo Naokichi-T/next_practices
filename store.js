@@ -40,3 +40,8 @@ function calcReducer(state = initial, action) {
       return state;
   }
 }
+
+// initStore関数
+export function initStore(state = initial) {
+  return createStore(calcReducer, state, applyMiddleware(thunkMiddleware));
+}
